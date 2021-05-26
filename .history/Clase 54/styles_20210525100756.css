@@ -1,0 +1,20 @@
+/* 
+banner con unidades de viewport
+footer siempre abajo
+responsive con flexbox
+responsive con grid
+*/
+body {
+    margin: 0;
+    /* color: #eee; */
+    font-family: sans-serif;
+    /* background-image: radial-gradient(circle, #b94bf8, #3a1957); */
+    background-repeat: no-repeat;
+}
+
+.footer{
+    background-color: red;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    margin: 0;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+}
+
+.grid-item{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+
+.header{
+    grid-column: 1 / -1;
+}
+
+.aside{
+    grid-column: span 1;
+    grid-row: 2 / -1;
+    background-color: limegreen;
+}
+
+.footer{
+    background-color: peru;  
+}
+
+.gallery{
+    display: grid;
+}

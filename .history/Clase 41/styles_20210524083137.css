@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #eee;
+    height: 100vh;
+}
+
+img {
+}
+
+.card {
+    background-color: #000;
+}
+
+.card__left {
+}
+
+.card__right {
+}
+
+.card__title {
+}
+
+.form {
+    
+}
+
+.form__field {
+    
+}
+
+.form__names {
+
+}
+
+.form__names input {
+    
+}
+
+.form__label {
+}
+
+.form__input,
+.form__textarea {
+}
+
+.form__textarea {
+}
+
+.form__submit {
+   
+}
